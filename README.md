@@ -29,7 +29,7 @@
 <div>
     <p align="center">
     <em>
-        This is a project being developed for a Flutter couse in Alura plataform, so I can learn more of Flutter.
+        This is a project being developed for a Flutter couse in Alura plataform, so I can learn more about Flutter.
     </em>
     </p>
 </div>
