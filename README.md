@@ -5,15 +5,15 @@
 
 <div>
     <p align="center">
-    <a href="https://www.linkedin.com/in/mike-jhoe/" target="_blank">
-        <img src="https://img.shields.io/static/v1?label=Author&message=Mike Jhoe&color=00ba6d&style=for-the-badge&logo=LinkedIn" alt="Author: Mike Jhoe">
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/static/v1?label=Language&message=Dart&color=blue&style=for-the-badge&logo=Dart" alt="Language: Dart">
-    </a>
-  	<a href="#">
-		  <img src="https://img.shields.io/static/v1?label=Framework&message=Flutter&color=green&style=for-the-badge&logo=Flutter"  alt="Language: Flutter">
-	  </a>
+    	<a href="https://www.linkedin.com/in/mike-jhoe/" target="_blank">
+        	<img src="https://img.shields.io/static/v1?label=Author&message=Mike Jhoe&color=00ba6d&style=for-the-badge&logo=LinkedIn" alt="Author: Mike Jhoe">
+    	</a>
+    	<a href="https://dart.dev/guides" target="_blank">
+        	<img src="https://img.shields.io/static/v1?label=Language&message=Dart&color=blue&style=for-the-badge&logo=Dart" alt="Language: Dart">
+    	</a>
+    	<a href="https://flutter.dev/docs" target="_blank">
+		<img src="https://img.shields.io/static/v1?label=Framework&message=Flutter&color=green&style=for-the-badge&logo=Flutter"  alt="Language: Flutter">
+    	</a>
     </p>
 </div>
 
