@@ -1,16 +1,39 @@
-# bytebank2
+<h1 align="center">
+	<img src="https://logowik.com/content/uploads/images/flutter5786.jpg"  alt="Logo"  width="240"><br><br>
+    ByteBank / A Flutter Journey
+</h1>
 
-A new Flutter project.
+<div>
+    <p align="center">
+    <a href="https://www.linkedin.com/in/mike-jhoe/" target="_blank">
+        <img src="https://img.shields.io/static/v1?label=Author&message=Mike Jhoe&color=00ba6d&style=for-the-badge&logo=LinkedIn" alt="Author: Mike Jhoe">
+    </a>
+    <a href="#">
+        <img src="https://img.shields.io/static/v1?label=Language&message=Dart&color=blue&style=for-the-badge&logo=Dart" alt="Language: Dart">
+    </a>
+  	<a href="#">
+		  <img src="https://img.shields.io/static/v1?label=Framework&message=Flutter&color=green&style=for-the-badge&logo=Flutter"  alt="Language: Flutter">
+	  </a>
+    </p>
+</div>
 
-## Getting Started
+## Table of Contents
 
-This project is a starting point for a Flutter application.
+<p align="center">
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## 📌About
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<div>
+    <p align="center">
+    <em>
+        This is a project being developed for a Flutter couse in Alura plataform, so I can learn more of Flutter.
+    </em>
+    </p>
+</div>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀Features
+
+- Creation, Editing and Deletion of Contacts, and possibility to do a transaction to a Contact. 
