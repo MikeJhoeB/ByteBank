@@ -13,7 +13,7 @@ class ContactsList extends StatefulWidget {
 }
 
 class _ContactsListState extends State<ContactsList> {
-  final String _deleteText = "Deseja realmente apagar esse contato?";
+  final String _deleteText = "You sure you want to delete this contact?";
   final ContactDao _dao = ContactDao();
 
   Widget build(BuildContext context) {

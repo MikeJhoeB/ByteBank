@@ -12,7 +12,7 @@ class DeleteContactDialog extends StatelessWidget {
       actions: <Widget>[
         TextButton(
           child: Text(
-            "Cancelar",
+            "Cancel",
             style: TextStyle(color: Colors.black),
           ),
           onPressed: () {
@@ -21,7 +21,7 @@ class DeleteContactDialog extends StatelessWidget {
         ),
         TextButton(
           child: Text(
-            "Deletar",
+            "Delete",
             style: TextStyle(color: Colors.red),
           ),
           onPressed: () {
