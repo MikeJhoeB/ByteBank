@@ -26,7 +26,7 @@ class _ContactsUpdateState extends State<ContactsUpdate> {
 
     return Scaffold(
       appBar: AppBar(
-        title: (Text("Atualizar contato")),
+        title: (Text("Update contact")),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -37,7 +37,7 @@ class _ContactsUpdateState extends State<ContactsUpdate> {
               child: TextField(
                 controller: _nomeController,
                 decoration: InputDecoration(
-                  labelText: "Nome Completo",
+                  labelText: "Full Name",
                 ),
                 style: TextStyle(fontSize: 24.0),
               ),
@@ -45,7 +45,7 @@ class _ContactsUpdateState extends State<ContactsUpdate> {
             TextField(
               controller: _contaController,
               decoration: InputDecoration(
-                labelText: "Número da Conta",
+                labelText: "Account Number",
               ),
               style: TextStyle(fontSize: 24.0),
               keyboardType: TextInputType.number,
@@ -61,7 +61,7 @@ class _ContactsUpdateState extends State<ContactsUpdate> {
                     final Contact updateContato = Contact(contact.id, nome,conta!);
                     _dao.update(updateContato).then((id) =>  Navigator.pop(context));
                   },
-                  child: Text("Atualizar"),
+                  child: Text("Update"),
                 ),
               ),
             )

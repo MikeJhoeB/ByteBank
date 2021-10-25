@@ -16,7 +16,7 @@ class _ContactsFormState extends State<ContactsForm> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: (Text("Novo contato")),
+        title: (Text("New Contact")),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -27,7 +27,7 @@ class _ContactsFormState extends State<ContactsForm> {
               child: TextField(
                 controller: _nomeController,
                 decoration: InputDecoration(
-                  labelText: "Nome Completo",
+                  labelText: "Full Name",
                 ),
                 style: TextStyle(fontSize: 24.0),
               ),
@@ -35,7 +35,7 @@ class _ContactsFormState extends State<ContactsForm> {
             TextField(
               controller: _contaController,
               decoration: InputDecoration(
-                labelText: "Número da Conta",
+                labelText: "Account Number",
               ),
               style: TextStyle(fontSize: 24.0),
               keyboardType: TextInputType.number,
@@ -51,7 +51,7 @@ class _ContactsFormState extends State<ContactsForm> {
                     final Contact novoContato = Contact(0, nome,conta!);
                     _dao.save(novoContato).then((id) =>  Navigator.pop(context));
                   },
-                  child: Text("Criar"),
+                  child: Text("Create"),
                 ),
               ),
             )
